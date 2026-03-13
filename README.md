@@ -1,20 +1,33 @@
 # AI Project Coordinator
 
-A simple AI powered app that converts meeting notes into project tasks.
+An AI powered project coordination tool that converts meeting notes into structured project tasks, generates weekly project status reports, and predicts delivery risks.
 
 ## Features
-- Paste meeting notes
-- Extract action items using AI
-- Save tasks in SQLite
-- View saved tasks in a dashboard
+
+• Extract action items from meeting notes using AI  
+• Automatically assign task owner, priority, and deadlines  
+• Generate a weekly project status report  
+• Detect project risks and potential delays  
+• Interactive dashboard for tracking tasks  
 
 ## Tech Stack
-- Python
-- Streamlit
-- SQLite
-- Pandas
-- OpenAI API
 
-## Run the project
-```bash
+Python  
+Streamlit  
+SQLite  
+Pandas  
+OpenAI API  
+
+## Run the Project
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the app
+
 streamlit run app.py
+
+## Author
+
+Aditya Singh
